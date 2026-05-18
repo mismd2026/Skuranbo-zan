@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@layer base {
+  /* Remove number input spinners */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+}
+
+body {
+  background-image: radial-gradient(#ff5e7822 1px, transparent 1px);
+  background-size: 20px 20px;
+}

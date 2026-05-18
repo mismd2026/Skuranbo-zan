@@ -1,0 +1,8 @@
+{
+  "name": "さくらんぼ算ドリル",
+  "description": "小学1年生向けのさくらんぼ算（数の分解）学習用ドリルアプリです。1桁から3桁までの問題に対応しています。",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
